@@ -1,0 +1,6 @@
+{
+  "name": "satyarth",
+  "root": "build/",
+  "clean_urls": true,
+  "error_page": "error.html"
+}

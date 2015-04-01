@@ -1,0 +1,27 @@
+{
+  "locals": {
+    "url": "http://satyarth.me",
+    "name": "satyarth.me",
+    "owner": "Satyarth Mishra Sharma",
+    "description": "-"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 8
+  }
+
+}

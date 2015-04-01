@@ -1,0 +1,3 @@
+- var tags = env.helpers.getTagsFromArticle(page)
+each tag in tags
+    a.big-tag(href=env.helpers.getTagHome(tag).url)= tag

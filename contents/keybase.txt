@@ -1,0 +1,73 @@
+==================================================================
+https://keybase.io/satyarth
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://satyarth.me
+  * I am satyarth (https://keybase.io/satyarth) on keybase.
+  * I have a public key with fingerprint 6E30 E0B0 3BC8 C38E 54F0  8F8C FF60 2AC1 9A56 5D51
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "6e30e0b03bc8c38e54f08f8cff602ac19a565d51",
+            "host": "keybase.io",
+            "key_id": "ff602ac19a565d51",
+            "kid": "01018ec9b383028229932e300b127338deb770106ecfd15ac0f92376a14abd003cfd0a",
+            "uid": "b7a12c80cfc943be15965e1d47b97c19",
+            "username": "satyarth"
+        },
+        "revoke": {
+            "sig_ids": [
+                "0d8db50c35059573ff4ea4743e55d617ed47a95fd9ef0cd6300b338a15df440d0f"
+            ]
+        },
+        "service": {
+            "hostname": "satyarth.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1427726394,
+    "expire_in": 157680000,
+    "prev": "72857392c124ddcfa5a1d8304a3d473739206dde1f370efa23f5d30ead5a48d3",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMJeAnicbVJZaFVHGD5xSTQutaCSqGgctyoxzpw5c5ZLQNzSoliKogQX7p0zS3KI
+3nM999xrokkeRKIRfFCDKLFwXyruWuJKjK3GUjVVUlpaF2KhKKKgkAeXVo3OCfoi
+zsvP/P833/f9//xXRwzUCvOKx31zZ9+uFwfzui63ZrQVxYnYZuD6vA6oWCP6g/SS
+VSJIBV4yBDFgCgwFdCF2mc2wLYghoS1tJqUJdcqQQ4lJOEGgFFT76eiFonFpWpR5
+vsqpS9zjKvsZfE1/ASKIbMEcF9sY6rauOw7WlSh0kW5hbHPhWpYCmYJJjghlUDo6
+tkyKDOpyCLFKQ6roMv10rkWRzmzIJHMM7ApEHJMIxA3LdSwlHwHTIkjS9UKh0zSs
+o0FYDRpKQSCyfo2IJpD2qpTpNIitBpDb3CWQYQKJQywspSGoYRlYEMJNZAlFTB0i
+uSMkZNyMfCvTFBEuDQNyKMFaxa0Usx7rJ4+m9Il6mbqVglTghz7z16lCdRimYpGn
+sC4VATcKN/6BIu56Sa5+SD3IiiDt+UkQQwrJQi/iRIZuWbqJHaMUiNqUF4i4FyGI
+ZdpQnUhGZBWlpduqHUdnSDc4Z5ISirj6AYNi1RKOStDkXCCJLSgk1bEkXK0C5YQa
+NscgampD0gcxomzSqqgdrypJw0wgQMOVn9cM0vIKtfzBA6Id0wqHjvq4ed9OG6Lt
+3DC7/v4DrXPj1pEl19tsL/HLprFTKr7bU37k9tYbic4t+dOmPlvsLHj16Ldba07k
+VZQcu/dfS+7Ur09uGlcnV/547+XxgvYZmbP/zHz0VeV+eP/32U2JeMGwr7XDfz01
+Z61eVvy4uzX578LR1w40vUwMaJtTuLvDedK9fsLKn2Y97r3ScbrguF3u9TZf6hrT
+0Nxxt7122KK931e0/1+04+BJvA13zZ14we2e9K7pYW75+fpVLTPDW+HFM19ouZsj
+6IEHfdv/eF4yfzgp2j5nQdufZa8POa23+3qybxsbc3U3xleOKj9fn/u7r7Nn86Bw
+ejtf8uWYkdd/yBQ1+kfn5Te/ae1tss/1LD3R9h6qwUNK
+=TilP
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/satyarth
+
+==================================================================
