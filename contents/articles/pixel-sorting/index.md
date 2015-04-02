@@ -6,7 +6,9 @@ tags: art, python
 template: article.jade
 ---
 
-Introducing order in a disordered way can make for some great glitch art.
+*Introducing order in a disordered way can make for some great glitch art.*
+
+---
 
 I wrote my own pixel sorter ([source here](https://github.com/satyarth/pixelsort/)) after I stumbled upon [/r/pixelsorting/](http://www.reddit.com/r/pixelsorting/). *Pixel sorting* is a technique that can mangle images to create stuff like:
 

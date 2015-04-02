@@ -1,18 +1,21 @@
 ---
 title: Shortest Tour of Cambridge Colleges
+byline: What's the most efficient way to visit every college in Cambridge in a single tour? AKA the travelling salesman problem.
 author: satyarth
 date: 2015-03-26
 tags: sadboys
 template: article.jade
 ---
 
-*What's the most efficient way to visit every college in Cambridge in a single tour?* AKA the [travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem).
+*What's the most efficient way to visit every college in Cambridge in a single tour? AKA the [travelling salesman problem](http://en.wikipedia.org/wiki/Travelling_salesman_problem).*
+
+---
 
 ## TL;DR
 
 The shortest tour is:
 
-Selwyn → Clare Hall → Robinson → Churchill → Girton → Fitzwilliam → Murray Edwards → St Edmund's → Lucy Cavendish → Magdalene → St John's → Sidney Sussex → Jesus → Christ's → Emmanuel → Downing → Hughes Hall → Homerton → Peterhouse → Pembroke → St Catharine's → Corpus Christi → King's → Gonville and Caius College → Trinity Hall → Trinity → Clare → Queens' → Darwin → Newnham → Wolfson → Selwyn
+Selwyn → Clare Hall → Robinson → Churchill → Girton → Fitzwilliam → Murray Edwards → St Edmund's → Lucy Cavendish → Magdalene → St John's → Sidney Sussex → Jesus → Christ's → Emmanuel → Downing → Hughes Hall → Homerton → Peterhouse → Pembroke → St Catharine's → Corpus Christi → King's → Gonville and Caius → Trinity Hall → Trinity → Clare → Queens' → Darwin → Newnham → Wolfson → Selwyn
 
 <iframe src="map.html" width="752" height="500" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
 
