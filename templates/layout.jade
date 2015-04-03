@@ -19,12 +19,9 @@ html(lang='en')
       div.header-bg  
         header.header
           div.header-wrap
-            block header                                      
-              h1
-                a(href=locals.url) satyarth.me
-              p.prompt ls
+            block header                                    
+              p.prompt ls 
               p 
-                a(href='/') \~ 
                 a(href='/#about') about 
                 a(href='/#contact') contact 
                 a(href='/#archive') archive 
@@ -33,6 +30,3 @@ html(lang='en')
     div#content
       div.content-wrap
         block content
-        
-    div.footer-bg
-      footer.footer

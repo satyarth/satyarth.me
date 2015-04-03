@@ -1,6 +1,6 @@
 ---
 title: Under the Hood
-author: the-wintersmith
+author: satyarth
 date: 2015-02-09
 template: article.jade
 ---
