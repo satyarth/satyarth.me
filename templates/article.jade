@@ -12,7 +12,9 @@ block prepend title
 block content
   article.article
     h1=(page.title)
-    section.content!= typogr(page.html).typogrify()
+    em=page.metadata.byline
+    hr
+    section.content!=typogr(page.html).typogrify()
   hr
   a(href='/#archive')
     p(align='center') ← Archive

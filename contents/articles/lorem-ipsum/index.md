@@ -1,8 +1,9 @@
 ---
-title: Lorem Ipsum
+title: Lorem Ipsum 
 author: satyarth
 date: 2015-01-26
 tags: sadboys
+byline: Lorem markdownum!
 template: article.jade
 ---
 

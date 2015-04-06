@@ -1,0 +1,5 @@
+{
+  "filename": "error.html",
+  "template": "error.jade",
+  "test": "test"
+}

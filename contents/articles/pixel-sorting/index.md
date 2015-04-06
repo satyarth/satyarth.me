@@ -3,11 +3,9 @@ title: Pixel Sorting
 author: satyarth
 date: 2015-02-10
 tags: art, python
+path: /articles/pixel-sorting
+byline: Introducing order in a disordered way can make for some great glitch art.
 template: article.jade
----
-
-*Introducing order in a disordered way can make for some great glitch art.*
-
 ---
 
 I wrote my own pixel sorter ([source here](https://github.com/satyarth/pixelsort/)) after I stumbled upon [/r/pixelsorting/](http://www.reddit.com/r/pixelsorting/). *Pixel sorting* is a technique that can mangle images to create stuff like:

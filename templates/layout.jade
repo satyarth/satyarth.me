@@ -12,15 +12,14 @@ html(lang='en')
           = locals.name
       link(rel='alternate', href=locals.url+'/feed.xml', type='application/rss+xml', title=locals.description)
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Roboto+Condensed' type='text/css')
-      link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Crete+Round' type='text/css')
       link(rel='stylesheet', href='/css/main.css')
+
   body(class=bodyclass)
       div.header-bg  
         header.header
           div.header-wrap
             block header                                    
-              p.prompt ls 
+              p.prompt ls satyarth.me
               p 
                 a(href='/#about') about 
                 a(href='/#contact') contact 
