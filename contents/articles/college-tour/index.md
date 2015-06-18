@@ -13,7 +13,7 @@ The shortest tour is:
 
 Selwyn → Clare Hall → Robinson → Churchill → Girton → Fitzwilliam → Murray Edwards → St Edmund's → Lucy Cavendish → Magdalene → St John's → Sidney Sussex → Jesus → Christ's → Emmanuel → Downing → Hughes Hall → Homerton → Peterhouse → Pembroke → St Catharine's → Corpus Christi → King's → Gonville and Caius → Trinity Hall → Trinity → Clare → Queens' → Darwin → Newnham → Wolfson → Selwyn
 
-<iframe src="map.html" width="752" height="500" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+<iframe src="map.html" width="100%" height="500" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
 
 ## Notes
 
