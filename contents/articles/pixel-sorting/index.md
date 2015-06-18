@@ -2,7 +2,7 @@
 title: Pixel Sorting
 author: satyarth
 date: 2015-02-10
-tags: art, python
+tags: [art, python]
 path: /articles/pixel-sorting
 byline: Introducing order in a disordered way can make for some great glitch art.
 template: article.jade

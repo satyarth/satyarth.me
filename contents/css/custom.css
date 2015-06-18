@@ -39,12 +39,34 @@ a {
   color: #A6E25F;
 }
 
+.date {
+	font-family: "Ubuntu Mono",monospace;
+	margin-right: 22px;
+}
+
+.tag {
+	font-family: "Ubuntu Mono",monospace;
+    float: right;
+    color: #FF8EAF;
+    font-size: 0.8em;
+    padding-left: 3px;
+    padding-right: 3px;
+    background-color: #222;
+    border-radius: 3px;
+    margin-left: 0.5em;
+}
+
+.archive {
+	margin-bottom: 0;
+}
+
 .container {
 	max-width: 768px;
+	padding-top: 32px;
+	padding-bottom: 72px;
 }
 
 code {
-
 	font-family: "Ubuntu Mono",monospace;
 	font-size: 1em;
 	color: #ddd;

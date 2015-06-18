@@ -1,0 +1,23 @@
+extends layout
+block content
+
+  h2 Tag: #{ tag }
+
+  ul
+  for article in articles
+    li
+      a(href=article.url)=article.title
+      p
+        i=article.metadata.byline
+
+  if prevPage
+    span.index-nav-left
+      a(href='#{ prevPage.url }') &#8592;
+  else
+    span.index-nav-left &#8592;
+
+  if nextPage
+    span.index-nav-right
+      a(href='#{ nextPage.url }') &#8594;
+  else
+    span.index-nav-right &#8594;

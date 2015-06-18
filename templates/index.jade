@@ -2,41 +2,27 @@ extends layout
 block content
   block about
     div(id='about')
-    h1 About
-    include:markdown ../contents/about.md
-  hr
+      h1 About
+      include:markdown ../contents/about.md
+    hr
 
   block contact
     div(id='contact')
-    h1 Contact
-    include:markdown ../contents/contact.md
-  hr
+      h1 Contact
+      include:markdown ../contents/contact.md
+    hr
   
   block archive
-    div(id='archive')
-    - var archives = _.chain(env.helpers.getArticles(contents)).groupBy(function(item) {
-    -  return item.date.getFullYear()
-    - }).value()
-    - for (var archive in archives) {
-    - archives[archive] = _.groupBy(archives[archive], function(item){return item.date.getMonth();})
-    - }
-    - var month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+    div(id='archive' class='archive')
       h1 Archive
-      div(class='row')
-        - var yearsK = _.chain(archives).keys().reverse().value()
-        - for(var year in yearsK)
-          - months = archives[yearsK[year]]
-        div(class='three columns')
-          h4=yearsK[year]
-        div(class='nine columns') 
-          - var monthsK = _.chain(months).keys().reverse().value()
-          - for(month in monthsK){
-            - var monthHeight = lineHeight * months[monthsK[month]].length
-            div(class='row')
-              div(class='three columns')
-                p=month_names[monthsK[month]]
-              div(class='six columns')
-                each item in months[monthsK[month]]
-                  p
-                    a(href=item.url)=item.title
-          - }
+      - var archives = env.helpers.getArticles(contents)
+      each item in archives
+       
+          - dateString = item.date.getFullYear() +'-' +('0' + (item.date.getMonth()+1)).slice(-2)+ '-' + ('0' + item.date.getDate()).slice(-2);
+          span(class='date')=dateString
+          a(href=item.url)=item.title
+          - console.log(item.metadata.tags)
+          - tags=item.metadata.tags
+          each tag in tags
+            a(class='tag', href='tag/'+tag)=tag.trim()
+          br

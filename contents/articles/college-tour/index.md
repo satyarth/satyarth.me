@@ -3,7 +3,7 @@ title: Shortest Tour of Cambridge Colleges
 byline: "What's the most efficient way to visit every college in Cambridge in a single tour? AKA the travelling salesman problem."
 author: satyarth
 date: 2015-03-26
-tags: sadboys
+tags: [maps]
 template: article.jade
 ---
 

@@ -6,7 +6,8 @@
     "description": "-"
   },
   "plugins": [
-    "./plugins/paginator.coffee"
+    "./plugins/paginator.coffee",
+    "./node_modules/wintersmith-tag-pages/"
   ],
   "require": {
     "moment": "moment",
@@ -22,6 +23,8 @@
   },
   "paginator": {
     "perPage": 8
+  },
+  "tagPages": {
+  "perPage": 2
   }
-
 }
