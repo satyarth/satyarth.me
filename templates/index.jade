@@ -16,13 +16,11 @@ block content
     div(id='archive' class='archive')
       h1 Archive
       - var archives = env.helpers.getArticles(contents)
-      each item in archives
-       
-          - dateString = item.date.getFullYear() +'-' +('0' + (item.date.getMonth()+1)).slice(-2)+ '-' + ('0' + item.date.getDate()).slice(-2);
-          span(class='date')=dateString
-          a(href=item.url)=item.title
-          - console.log(item.metadata.tags)
-          - tags=item.metadata.tags
-          each tag in tags
-            a(class='tag', href='tag/'+tag)=tag.trim()
-          br
+      each item in archives       
+        - dateString = item.date.getFullYear() +'-' +('0' + (item.date.getMonth()+1)).slice(-2)+ '-' + ('0' + item.date.getDate()).slice(-2);
+        span(class='date')=dateString
+        a(href=item.url)=item.title
+        - tags=item.metadata.tags
+        each tag in tags
+          a(class='tag', href='/tag/'+tag)=tag.trim()
+        br

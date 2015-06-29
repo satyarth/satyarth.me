@@ -6,7 +6,7 @@
 */
 
 body {
-	font-family: "Lora", serif;
+	font-family: 'Droid Serif', serif;
 	font-size: 1.6em;
 	line-height: 1.4;
 }
@@ -56,6 +56,10 @@ a {
     margin-left: 0.5em;
 }
 
+.tag:hover {
+	color: #92F0F3;
+}
+
 .archive {
 	margin-bottom: 0;
 }
@@ -64,6 +68,11 @@ a {
 	max-width: 768px;
 	padding-top: 32px;
 	padding-bottom: 72px;
+}
+
+img {
+	display: block;
+	margin-bottom: 0.4rem;
 }
 
 code {

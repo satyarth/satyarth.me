@@ -10,6 +10,9 @@ block content
   article.article
     h1=(page.title)
     em=page.metadata.byline
+    - tags=page.metadata.tags
+    each tag in tags
+      a(class='tag', href='/tag/'+tag)=tag.trim()
     hr
     section.content!=typogr(page.html).typogrify()
   hr
