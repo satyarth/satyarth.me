@@ -88,7 +88,7 @@ hr {
 	margin-bottom: 0.4rem;
 }
 
-@keyframes blink {  
+@keyframes blink {
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
   100% { opacity: 1.0; }
