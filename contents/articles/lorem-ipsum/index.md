@@ -2,7 +2,7 @@
 title: Lorem Ipsum 
 author: satyarth
 date: 2014-01-22
-tags: [sadboys]
+tags: [test]
 byline: Lorem markdownum!
 template: article.jade
 ---
