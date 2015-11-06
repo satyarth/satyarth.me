@@ -72,7 +72,7 @@ a {
 
 img {
 	display: block;
-	margin-bottom: 0.4rem;
+    margin: 0 auto;
 }
 
 code {
@@ -85,7 +85,7 @@ code {
 
 hr {
 	margin-top: 0.2rem;
-	margin-bottom: 0.4rem;
+	margin-bottom: 1rem;
 }
 
 @keyframes blink {
