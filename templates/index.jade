@@ -22,5 +22,5 @@ block content
         a(href=item.url)=item.title
         - tags=item.metadata.tags
         each tag in tags
-          a(class='tag', href='/tag/'+tag)=tag.trim()
+          a(class='tag', href='/tag/'+tag, title='item.metadata.byline')=tag.trim()
         div(style='clear: both;')

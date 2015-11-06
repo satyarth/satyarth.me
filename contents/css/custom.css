@@ -18,6 +18,7 @@ h1, h2 {
 a {
 	color: #ED4C7A;
 	text-decoration: none;
+	border-bottom: 1px solid;
 }
 
 .header {
@@ -36,6 +37,7 @@ a {
 
 .header a {
 	color: #92F0F3;
+	border-bottom: none;
 }
 
 .prompt:before {
