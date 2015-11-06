@@ -5,4 +5,4 @@ You can email me at:
 * `sm966@cam.ac.uk` (not preferred)
 * `sat@hastoomanyemailaddress.es`
 
-Message me on [telegram](https://telegram.me/ebanaut). Send me super secret stuff using [keybase](https://keybase.io/satyarth).
+Message me on [telegram](https://telegram.me/ebanaut). [Tweet](https://twitter.com/satyarthm) at me. Send me super secret stuff using [keybase](https://keybase.io/satyarth).
