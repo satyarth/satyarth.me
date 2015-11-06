@@ -16,7 +16,7 @@ I wrote my own pixel sorter ([source here](https://github.com/satyarth/pixelsort
 
 ![](3.png)
 
-Higher resolutions of these and more at my [imgur gallery](http://imgur.com/a/nZHbb).
+Higher resolutions of these and more at this [imgur gallery](http://imgur.com/a/nZHbb).
 
 ## How exactly do you sort pixels?
 
@@ -29,23 +29,31 @@ Consider the image below. Let's say we want to sort each entire row separately. 
 ![](example.png)
 
 * Intensity (R+G+B)
+
 ![](example1.png)
+
 Here we're sorting with respect to the R+G+B values. Notice that the brightest parts of the image shift right while the darker parts migrate left.
 
 * Other combinations of RGB (R+G-B)
+
 ![](example5.png)
+
 The bluish parts of the image migrate left while the reddish/greenish parts migrate right.
 
 * Arbitrary functions of RGB
+
 ![](example6.png)
+
 Absolute value of difference between R and B
 
 **2. A way to split up the rows (or columns) of the image into intervals that make sense to sort.**
 
-Sure, we could just sort *all* the pixels along each row. For example, this image:
+Sure, we could just sort *all* the pixels along each row. For example, the same image:
 
 ![](example.png)
+
 turns into:
+
 ![](example1.png)
 
 ...but that isn't very interesting. So how do we choose these intervals? A very simple way which gives reasonably good results is to generate intervals of random widths:
@@ -64,6 +72,8 @@ We can define the intervals less randomly to get:
 
 ![](example7.png)
 
-It is, of course, possible to define the intervals manually but the result heavily depends on your definition and won't be covered here.
+It is, of course, possible to define the intervals manually but the result heavily depends on your definition.
 
-All the images in this article were generated using a pixel sorter I wrote in python- [source here](https://github.com/ebanaut/pixelsort/). It shouldn't be too hard to use, if you do anything with it I'd love to see it!
+All the images in this article were generated using a pixel sorting script I wrote in python- [source here](https://github.com/satyarth/pixelsort/). It shouldn't be too hard to use, if you do anything with it I'd love to see it!
+
+*Edit:* The script was used to make [this](https://www.youtube.com/watch?v=bV2Br6e_bd8) music video. Check it out!
