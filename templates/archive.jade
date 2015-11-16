@@ -1,0 +1,19 @@
+extends layout
+
+block content
+  div(id='archive')
+    h1 Archive
+    - var archives = env.helpers.getArticles(contents)
+    each item in archives
+      if !item.metadata.draft
+        div(class='row')
+          - dateString = item.date.getFullYear() +'-' +('0' + (item.date.getMonth()+1)).slice(-2)+ '-' + ('0' + item.date.getDate()).slice(-2);
+          div(class='two columns')
+            span(class='date')=dateString
+          div(class='ten columns')
+            a(href=item.url, class='archive')=item.title
+            - tags=item.metadata.tags
+            each tag in tags
+              a(class='tag', href='/tag/'+tag, title='item.metadata.byline')=tag.trim()
+            div(style='clear: both;')
+            p=item.metadata.byline

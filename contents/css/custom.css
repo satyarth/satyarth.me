@@ -17,6 +17,7 @@ h1 {
 
 h3 {
 	font-size: 1.6em;
+	margin-bottom: 0.2em;
 }
 
 a {
@@ -52,6 +53,11 @@ a {
 .date {
 	font-family: "Ubuntu Mono",monospace;
 	margin-right: 22px;
+}
+
+.archive {
+  font-family: "Playfair Display",serif;
+  font-size: 1.2em;
 }
 
 .tag {
