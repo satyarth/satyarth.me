@@ -7,7 +7,7 @@
 
 body {
 	font-family: 'Droid Serif', serif;
-	font-size: 1.6em;
+	font-size: 1.7em;
 	line-height: 1.4;
 }
 
@@ -71,7 +71,7 @@ a {
 }
 
 .container {
-	max-width: 768px;
+	max-width: 720px;
 	padding-top: 32px;
 	padding-bottom: 72px;
 }
