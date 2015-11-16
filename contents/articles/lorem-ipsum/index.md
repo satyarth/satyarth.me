@@ -4,6 +4,7 @@ author: satyarth
 date: 2014-01-22
 tags: [test]
 byline: Lorem markdownum!
+mathjax: True
 template: article.jade
 ---
 
@@ -23,6 +24,8 @@ Neque iuvene, in nostram e pondus tacto. Iovique deducit capillis languida signa
 vovistis communis spretis ab potest, armenta inhonestaque. Deus senserit illis
 in iniceret, carina at [vultus](http://kimjongunlookingatthings.tumblr.com/)
 cadentem simul at. Odium nunc qui locorum data, femineusque recentes quantum.
+
+\\[e^{i \\pi} + 1 = 0 \\]
 
     var framework = -3 + certificate_url(5, 5, core);
     handleUnit(ebook_token_disk);

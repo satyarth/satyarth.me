@@ -4,9 +4,9 @@ extends layout
 block prepend title
   | #{ page.title + " - "}
 
-
-
 block content
+  if page.metadata.mathjax
+    script(type="text/javascript", src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
   article.article
     h1=(page.title)
     em=page.metadata.byline
