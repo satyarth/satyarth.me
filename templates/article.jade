@@ -7,6 +7,10 @@ block prepend title
 block content
   if page.metadata.mathjax
     script(type="text/javascript", src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML")
+  if page.metadata.highlight
+    link(rel="stylesheet", href="/css/highlight.css")
+    script(src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js")
+    script="hljs.initHighlightingOnLoad();"
   article.article
     h1=(page.title)
     em=page.metadata.byline
