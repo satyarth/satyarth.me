@@ -11,8 +11,12 @@ body {
 	line-height: 1.4;
 }
 
-h1, h2 {
+h1 {
 	font-family: "Playfair Display",serif;
+}
+
+h3 {
+	font-size: 1.6em;
 }
 
 a {
@@ -72,9 +76,14 @@ a {
 	padding-bottom: 72px;
 }
 
+ul, ol {
+	padding-left: 2em;
+}
+
 img {
 	display: block;
     margin: 0 auto;
+    max-width:100%;
 }
 
 code {

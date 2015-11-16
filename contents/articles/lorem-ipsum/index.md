@@ -27,6 +27,7 @@ in iniceret, carina at [vultus](http://kimjongunlookingatthings.tumblr.com/)
 cadentem simul at. Odium nunc qui locorum data, femineusque recentes quantum.
 
 \\[e^{i \\pi} + 1 = 0 \\]
+
 <pre>
 <code class="python">
 for y in range(len(pixels)):
@@ -46,6 +47,7 @@ for y in range(len(pixels)):
 return(sorted_pixels)
 </code>
 </pre>
+
 ## Freta ensem petis
 
 **Morphea avellere**, nec vultus origo [patefecit

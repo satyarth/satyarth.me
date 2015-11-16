@@ -22,7 +22,7 @@ Higher resolutions of these and more at this [imgur gallery](http://imgur.com/a/
 
 It's simple enough to sort numbers, but how do we extend this to pixels? Well, it's more of an art than a science. Roughly speaking, you need to choose two things:
 
-**1. A function with respect to which to sort the pixels.**
+### A function with respect to which to sort the pixels.
 
 Consider the image below. Let's say we want to sort each entire row separately. What numerical quantities would it make sense to max/minimize?
 
@@ -32,21 +32,21 @@ Consider the image below. Let's say we want to sort each entire row separately. 
 
 ![](example1.png)
 
-Here we're sorting with respect to the R+G+B values. Notice that the brightest parts of the image shift right while the darker parts migrate left.
+*Here we're sorting with respect to the R+G+B values. Notice that the brightest parts of the image shift right while the darker parts migrate left.*
 
 * Other combinations of RGB (R+G-B)
 
 ![](example5.png)
 
-The bluish parts of the image migrate left while the reddish/greenish parts migrate right.
+*The bluish parts of the image migrate left while the reddish/greenish parts migrate right.*
 
 * Arbitrary functions of RGB
 
 ![](example6.png)
 
-Absolute value of difference between R and B
+*Absolute value of difference between R and B.*
 
-**2. A way to split up the rows (or columns) of the image into intervals that make sense to sort.**
+### A way to split up the rows (or columns) of the image into intervals that make sense to sort.
 
 Sure, we could just sort *all* the pixels along each row. For example, the same image:
 
@@ -76,4 +76,4 @@ It is, of course, possible to define the intervals manually but the result heavi
 
 All the images in this article were generated using a pixel sorting script I wrote in python- [source here](https://github.com/satyarth/pixelsort/). It shouldn't be too hard to use, if you do anything with it I'd love to see it!
 
-*Edit:* The script was used to make [this](https://www.youtube.com/watch?v=bV2Br6e_bd8) music video. Check it out!
+**Edit:** The script was used to make [this](https://www.youtube.com/watch?v=bV2Br6e_bd8) music video. Check it out!
