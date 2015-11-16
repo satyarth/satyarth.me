@@ -85,6 +85,10 @@ code {
 	border: none;
 }
 
+blockquote {
+	font-style: italic;
+}
+
 hr {
 	margin-top: 0.2rem;
 	margin-bottom: 1rem;
