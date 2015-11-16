@@ -2,4 +2,4 @@
 
 git pull
 wintersmith build
-cp build/* /var/www -r
+sudo cp build/* /var/www -r
