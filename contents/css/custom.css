@@ -60,6 +60,10 @@ a {
   font-size: 1.2em;
 }
 
+.archive-date {
+	margin-top: 0.32em;
+}
+
 .tag {
 	font-family: "Ubuntu Mono",monospace;
     float: right;
