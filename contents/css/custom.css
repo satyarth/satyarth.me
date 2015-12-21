@@ -6,13 +6,18 @@
 */
 
 body {
-	font-family: 'Droid Serif', serif;
-	font-size: 1.7em;
-	line-height: 1.4;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 1.6em;
+	/*line-height: 1.45;*/
 }
 
 h1 {
 	font-family: "Playfair Display",serif;
+}
+
+h2 {
+	font-size: 2em;
+	   border-bottom: 1px solid #CCCCCC;
 }
 
 h3 {
@@ -81,7 +86,7 @@ a {
 }
 
 .container {
-	max-width: 720px;
+	max-width: 754px;
 	padding-top: 32px;
 	padding-bottom: 72px;
 }
