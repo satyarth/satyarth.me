@@ -7,6 +7,8 @@ tags: [maps]
 template: article.jade
 ---
 
+I wondered what the most efficient way to visit every college in Cambridge in a single tour was. I investigated. I found the answer.
+
 ## TL;DR
 
 The shortest tour is:
