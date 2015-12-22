@@ -67,6 +67,7 @@ a {
 
 .archive-date {
 	margin-top: 0.32em;
+	font-family: "Ubuntu Mono",monospace;
 }
 
 .tag {
