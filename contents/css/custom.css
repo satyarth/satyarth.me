@@ -119,6 +119,19 @@ hr {
 	margin-bottom: 1rem;
 }
 
+*::selection {
+  background: #A6E2F0;
+  color: #ffffff;
+}
+*::-moz-selection {
+  background: #A6E2F0;
+  color: #ffffff;
+}
+*::-webkit-selection {
+  background: #A6E2F0;
+  color: #ffffff;
+}
+
 @keyframes blink {
   0% { opacity: 1.0; }
   50% { opacity: 0.0; }
