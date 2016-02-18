@@ -14,9 +14,8 @@ I wondered what the most efficient way to visit every college in Cambridge in a 
 The shortest tour is:
 
 Selwyn → Clare Hall → Robinson → Churchill → Girton → Fitzwilliam → Murray Edwards → St Edmund's → Lucy Cavendish → Magdalene → St John's → Sidney Sussex → Jesus → Christ's → Emmanuel → Downing → Hughes Hall → Homerton → Peterhouse → Pembroke → St Catharine's → Corpus Christi → King's → Gonville and Caius → Trinity Hall → Trinity → Clare → Queens' → Darwin → Newnham → Wolfson → Selwyn
-
-<iframe src="map.html" width="100%" height="500" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
-
+<div class='main-width'><iframe src="map.html" width="100%" height="500" marginwidth="0" marginheight="0" scrolling="no" frameborder="0"></iframe>
+</div>
 ## Notes
 
 * As fun as it would have been to write my own TSP solver, I used [Concorde](http://www.math.uwaterloo.ca/tsp/concorde/index.html). Concorde's last release was all the way back in 2003 but apparently it was "state of the art" as recently as 2007. To set the problem up for Concorde I had to get the coordinates of the colleges, then calculate the distance between each pair of colleges.

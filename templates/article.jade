@@ -1,5 +1,5 @@
 
-extends layout
+extends layout-article
 
 block prepend title
   | #{ page.title + " - "}
@@ -11,14 +11,9 @@ block content
     link(rel="stylesheet", href="/css/highlight.css")
     script(src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.9.1/highlight.min.js")
     script="hljs.initHighlightingOnLoad();"
-  article.article
-    h1=(page.title)
-    em=page.metadata.byline
-    - tags=page.metadata.tags
-    each tag in tags
-      a(class='tag', href='/tag/'+tag)=tag.trim()
-    hr
-    section.content!=typogr(page.html).typogrify()
-  hr
+  h1=(page.title)
+  em=page.metadata.byline
+  - tags=page.metadata.tags
+  section.content!=typogr(page.html).typogrify()
   a(href='/archive.html')
     p(align='center') ← Archive

@@ -14,12 +14,21 @@ template: article.jade
 Lorem markdownum! Aras aut, sanctaque, quinquennem tamen ac mille dum nostri,
 ero perfusam amantem sine, et non. Ferrum adversos!
 
+<span class='marginnote'> This is a test</span>
+
 > Silva e **meruisse heros**. Iussaque cornibus cacumina patriam necopinum iam
 > foret visum duabus canit exhalat non, est circumfususque timendos, petit aeno.
 > Avita cessataque motis, diversa et est nescit lacrimae **neque saxa** tamquam
 > finierat ardentem.
 
 ## Mea sole
+
+Neque iuvene, in nostram e pondus tacto. Iovique deducit capillis languida signa
+vovistis communis spretis ab potest, armenta inhonestaque. Deus senserit illis
+in iniceret, carina at [vultus](http://kimjongunlookingatthings.tumblr.com/)
+cadentem simul at. Odium nunc qui locorum data, femineusque recentes quantum.
+
+![test](img.png)
 
 Neque iuvene, in nostram e pondus tacto. Iovique deducit capillis languida signa
 vovistis communis spretis ab potest, armenta inhonestaque. Deus senserit illis
