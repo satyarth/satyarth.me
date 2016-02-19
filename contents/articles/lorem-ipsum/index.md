@@ -11,10 +11,10 @@ template: article.jade
 
 ## Penates taedae maior solet vitare et
 
-Lorem markdownum! Aras aut, sanctaque, quinquennem tamen ac mille dum nostri,
+Lorem markdownum! Aras aut, sanctaque, <span class='marginnote'>![test](side.png)*Caption*</span>quinquennem tamen ac mille dum nostri,
 ero perfusam amantem sine, et non. Ferrum adversos!
 
-<span class='marginnote'> This is a test</span>
+
 
 > Silva e **meruisse heros**. Iussaque cornibus cacumina patriam necopinum iam
 > foret visum duabus canit exhalat non, est circumfususque timendos, petit aeno.
