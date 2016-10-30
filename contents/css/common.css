@@ -1,0 +1,93 @@
+body {
+	font-family: 'Libre Baskerville', serif;
+	line-height: 1.6;
+}
+
+.header {
+	min-height: 4.5em;
+	font-family: "Ubuntu Mono",monospace;
+	/*font-size: 1.15em;*/
+	line-height: 1;
+	background-color: #222;
+	color: #eee;
+}
+
+.header p {
+	margin-top: 0;
+	margin-bottom: 0.2em;
+}
+
+.header a {
+	color: #92F0F3;
+	border-bottom: none;
+}
+
+.prompt:before {
+  content: " ~$ ";
+  color: #A6E25F;
+}
+
+li {
+	margin-bottom: 0.8em;
+}
+
+ul, ol {
+	padding-left: 2em;
+}
+
+h1 {
+	font-family: "Playfair Display",serif;
+	font-size: 3em;
+	font-weight: 300;
+	margin-bottom: 0.2em;
+}
+
+h2 {
+	font-size: 2em;
+	font-weight: 300;
+	margin-bottom: 0.2em;
+}
+
+h3 {
+	font-size: 1.6em;
+	font-weight: 300;
+	margin-bottom: 0.2em;
+}
+
+a {
+	color: #1a1a1a;
+	text-decoration: none;
+	border-bottom: 3px solid #ED4C7A;
+}
+
+a:hover {
+	color: #ED4C7A;
+}
+
+*::selection {
+  background: #ED4C7A;
+  color: #ffffff;
+}
+*::-moz-selection {
+  background: #ED4C7A;
+  color: #ffffff;
+}
+*::-webkit-selection {
+  background: #ED4C7A;
+  color: #ffffff;
+}
+
+@keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+@-webkit-keyframes blink {
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1.5s step-start 0s infinite;
+}

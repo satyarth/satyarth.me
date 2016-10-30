@@ -6,54 +6,9 @@
 */
 
 body {
-	font-family: 'Libre Baskerville', serif;
 	font-size: 1.6em;
-	/*line-height: 1.45;*/
 }
 
-h1 {
-	font-family: "Playfair Display",serif;
-}
-
-h2 {
-	font-size: 2em;
-	   border-bottom: 1px solid #CCCCCC;
-}
-
-h3 {
-	font-size: 1.6em;
-	margin-bottom: 0.2em;
-}
-
-a {
-	color: #ED4C7A;
-	text-decoration: none;
-	border-bottom: 1px solid;
-}
-
-.header {
-	min-height: 4.5em;
-	font-family: "Ubuntu Mono",monospace;
-	/*font-size: 1.15em;*/
-	line-height: 1;
-	background-color: #222;
-	color: #eee;
-}
-
-.header p {
-	margin-top: 0;
-	margin-bottom: 0.2em;
-}
-
-.header a {
-	color: #92F0F3;
-	border-bottom: none;
-}
-
-.prompt:before {
-  content: " ~$ ";
-  color: #A6E25F;
-}
 
 .date {
 	font-family: "Ubuntu Mono",monospace;
@@ -92,10 +47,6 @@ a {
 	padding-bottom: 72px;
 }
 
-ul, ol {
-	padding-left: 2em;
-}
-
 img {
 	display: block;
     margin: 0 auto;
@@ -117,32 +68,4 @@ blockquote {
 hr {
 	margin-top: 0.2rem;
 	margin-bottom: 1rem;
-}
-
-*::selection {
-  background: #A6E2F0;
-  color: #ffffff;
-}
-*::-moz-selection {
-  background: #A6E2F0;
-  color: #ffffff;
-}
-*::-webkit-selection {
-  background: #A6E2F0;
-  color: #ffffff;
-}
-
-@keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
-@-webkit-keyframes blink {
-  0% { opacity: 1.0; }
-  50% { opacity: 0.0; }
-  100% { opacity: 1.0; }
-}
-.blink {
-  animation: blink 1s step-start 0s infinite;
-  -webkit-animation: blink 1.5s step-start 0s infinite;
 }
