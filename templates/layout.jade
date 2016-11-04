@@ -15,13 +15,10 @@ html(lang='en')
       link(href="//fonts.googleapis.com/css?family=Playfair+Display:400,400italic,700,700italic", rel="stylesheet", type="text/css")
       link(href="//fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700", rel="stylesheet", type="text/css")
       link(rel='stylesheet', href='/css/normalize.css')
-      link(rel='stylesheet', href='/css/skeleton.css')
-      // thank mr skeltal
-      link(rel='stylesheet', href='/css/common.css')
-      link(rel='stylesheet', href='/css/custom.css')
+    block moreHead
   body
     div(class='header')
-      div(class='container', style='padding: 1em 0 1em 0;')
+      div(class='container')
         div(class='row')
           block header                                    
             p.prompt ls satyarth.me

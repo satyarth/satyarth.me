@@ -1,4 +1,11 @@
 extends layout
+
+block moreHead
+  link(rel='stylesheet', href='/css/skeleton.css')
+  // thank mr skeltal
+  link(rel='stylesheet', href='/css/common.css')
+  link(rel='stylesheet', href='/css/custom.css')
+
 block content
   block about
     div(id='about')

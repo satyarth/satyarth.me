@@ -3,6 +3,11 @@ body {
 	line-height: 1.6;
 }
 
+.container {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
 .header {
 	min-height: 4.5em;
 	font-family: "Ubuntu Mono",monospace;
